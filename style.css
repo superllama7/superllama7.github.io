@@ -72,6 +72,12 @@
     font-family: TayDumpling;
     /* font-family: TayBasal; */
     /* font-family: TayBea; */
+    /* font-family: TayBirdie; */
+}
+
+.bk-entry{
+    height: 50vh;
+    width: 40vh;
 }
 
 .bk-navbar {

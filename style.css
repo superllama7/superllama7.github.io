@@ -140,3 +140,29 @@
     margin: 0; 
     padding-bottom: 5px;
 }
+
+.bk-quote {
+    padding: 6px 16px;
+    border: none;
+    quotes: "\201C" "\201D";
+    display: inline-block;
+    position: relative;
+}
+
+.bk-quote:before { 
+    content: open-quote;
+    font-weight: bold;
+    position:absolute;
+    top:0;
+    left: 0;
+} 
+/* .bk-quote:after { 
+    content: close-quote;
+    font-weight: bold;
+    position:absolute;
+    bottom:0; right: 0;
+} */
+
+footer {
+    padding-left: 15px;
+}
